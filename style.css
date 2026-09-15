@@ -2,6 +2,10 @@ body{
     background-color:rgb(103, 84, 84)"
 }
 
+table, th, td{
+    border:1px solid black;
+}
+
 p{
     color: white;
     background: rgb(62, 55, 55);
