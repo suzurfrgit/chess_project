@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(103, 84, 84)"
+    background-color:rgb(103, 84, 84);
 }
 
 table, th, td{
@@ -11,10 +11,22 @@ tr:nth-child(even) {
   background-color: #829296;
 }
 
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
 .explanation{
     color: white;
     background: rgb(62, 55, 55);
     font-size: 20px;
     text-align: center;
+}
+
+header {
+  background-color: rgb(62, 55, 55);
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
 }
 
