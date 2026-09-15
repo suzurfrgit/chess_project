@@ -7,7 +7,11 @@ table, th, td{
     text-align: center;
 }
 
-p{
+tr:nth-child(even) {
+  background-color: #829296;
+}
+
+.explanation{
     color: white;
     background: rgb(62, 55, 55);
     font-size: 20px;
