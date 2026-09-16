@@ -30,3 +30,15 @@ header {
   color: white;
 }
 
+menu {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+menu option {
+  list-style-type: none;
+  padding: 0;
+}   
+
