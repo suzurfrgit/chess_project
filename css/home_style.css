@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(103, 84, 84);
+    overflow-y:scroll;
+}
+
+table, th, td{
+    border:1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #829296;
+}
+
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.explanation{
+    color: white;
+    background: rgb(62, 55, 55);
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+  background-color: rgb(62, 55, 55);
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  background-color: #ccc;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
+.container div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+div.static{
+  position: static;
+  top: 250px;
+  left: 100px;
+  width:640px;
+  height:640px;
+  border: 3px solid #73AD21;
+}
