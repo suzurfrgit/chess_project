@@ -9,11 +9,11 @@ table, th, td{
 }
 
 tr:nth-child(even) {
-  background-color: #829296;
+    background-color: #829296;
 }
 
 tr:nth-child(odd) {
-  background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 .explanation{
@@ -24,11 +24,11 @@ tr:nth-child(odd) {
 }
 
 header {
-  background-color: rgb(62, 55, 55);
-  padding: 5px;
-  text-align: left;
-  font-size: 20px;
-  color: white;
+    background-color: rgb(62, 55, 55);
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
 }
 
 .container {
@@ -58,10 +58,11 @@ a:hover {
 }
 
 div.relative{
-  position: relative;
-  top: 10px;
-  left: 10px;
-  width:640px;
-  height:640px;
-  border: 3px solid #73AD21;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width:640px;
+    height:640px;
+    border: 3px solid #73AD21;
 }
