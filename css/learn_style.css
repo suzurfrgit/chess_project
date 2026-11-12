@@ -1,6 +1,9 @@
 body{
+    display:flex;
     background-color:rgb(103, 84, 84);
     overflow-y:scroll;
+    flex-direction: column;
+    margin:0;
 }
 
 table, th, td{
@@ -32,18 +35,18 @@ header {
 }
 
 .container {
-  margin-top: 10px;
-  display: flex;
-  background-color: #ccc;
-  justify-content: center;
-  justify-content: space-around;
+    margin-top: 10px;
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 
 .container div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
 }
 
 
@@ -53,8 +56,8 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 div.relative{
@@ -68,15 +71,26 @@ div.relative{
 }
 
 input[type=text] {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url("./../photos/learn/search_opening.png");
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  background-size: 30px 30px;
-  padding: 12px 20px 12px 40px;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url("./../photos/learn/search_opening.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+}
+
+footer {
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    z-index: 1000;
+    color:white
 }
