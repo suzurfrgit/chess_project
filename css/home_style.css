@@ -66,3 +66,18 @@ div.relative{
     height:640px;
     border: 3px solid #73AD21;
 }
+
+
+/*
+potential moves style:
+
+potentialmove{
+display:none
+background-color:yellow
+padding: 20px
+}
+
+div: hover potentialmove {
+display:block
+}
+*/
