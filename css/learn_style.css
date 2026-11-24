@@ -1,10 +1,29 @@
 body{
-    display:flex;
+    display: grid;
     background-color:rgb(103, 84, 84);
+    grid-template-areas:
+        'header header header header header'
+        'nav nav nav nav nav'
+        '. search search search .'
+        'main main main main right'
+        'footer footer footer footer footer';
+    padding: 0px;
+    gap: 5px; 
     overflow-y:scroll;
-    flex-direction: column;
     margin:0;
 }
+
+.item1 {grid-area: header;}
+.item2 {grid-area: nav;}
+.item3 {grid-area: search;}
+.item4 {grid-area: main;}
+.item5 {
+    grid-area: right;
+    align-self: start;
+    justify-self: start;
+}
+.item6 {grid-area: footer;}
+
 
 table, th, td{
     border:1px solid black;
@@ -61,9 +80,7 @@ a:hover {
 }
 
 div.relative{
-    float: left;
     position: relative;
-    top: 10px;
     left: 10px;
     width:640px;
     height:640px;
